@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(57, 60, 65) !important;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  background: url(images/model-s.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+header .bab {
+  background-color: rgba(90, 90, 90, 0.08);
+  padding: 7px 16px;
+  font-size: 0.92rem;
+  letter-spacing: 0.6px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+header a {
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+header a:hover {
+  background-color: rgba(90, 90, 90, 0.08);
+  padding: 9px 20px;
+  border-radius: 9px;
+}
+header .text {
+  min-height: inherit;
+  margin-top: 1.3rem;
+}
+header .text h2 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+}
+header .text p {
+  font-size: 1.3rem;
+  padding: 5px;
+  color: rgba(59, 59, 59, 0.753);
+}
+header .text button {
+  padding: 12px 20px;
+  width: 260px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  opacity: 0.9;
+  color: white;
+}
+header .text .top {
+  background-color: rgb(23, 26, 32);
+  color: white !important;
+}
+header .text .button {
+  margin-top: 26rem;
+}
+
+.blue {
+  background: url(images/model-y.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.blue .text {
+  min-height: inherit;
+}
+.blue .text .mode {
+  padding-top: 4rem;
+}
+.blue .text h2 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+}
+.blue .text p {
+  font-size: 1.3rem;
+  padding: 5px;
+  color: rgba(59, 59, 59, 0.753);
+}
+.blue .text button {
+  padding: 12px 20px;
+  width: 260px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  opacity: 0.9;
+  color: white;
+}
+.blue .text .top {
+  background-color: rgb(23, 26, 32);
+  color: white !important;
+}
+.blue .text .button {
+  margin-top: 26rem;
+}
+
+.red {
+  background: url(images/model-s.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.red .text {
+  min-height: inherit;
+}
+.red .text .mode {
+  padding-top: 4rem;
+}
+.red .text h2 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+}
+.red .text p {
+  font-size: 1.3rem;
+  padding: 5px;
+  color: rgba(59, 59, 59, 0.753);
+}
+.red .text button {
+  padding: 12px 20px;
+  width: 260px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  opacity: 0.9;
+  color: white;
+}
+.red .text .top {
+  background-color: rgb(23, 26, 32);
+  color: white !important;
+}
+.red .text .button {
+  margin-top: 26rem;
+}
+
+.green {
+  background: url(images/model-x.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.green .text {
+  min-height: inherit;
+}
+.green .text .mode {
+  padding-top: 4rem;
+}
+.green .text h2 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+}
+.green .text p {
+  font-size: 1.3rem;
+  padding: 5px;
+  color: rgba(59, 59, 59, 0.753);
+}
+.green .text button {
+  padding: 12px 20px;
+  width: 260px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  opacity: 0.9;
+  color: white;
+}
+.green .text .top {
+  background-color: rgb(23, 26, 32);
+  color: white !important;
+  margin-right: 25px;
+}
+.green .text .button {
+  margin-top: 26rem;
+}
+
+.solar {
+  background: url(images/solar-panel.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.solar .text {
+  min-height: inherit;
+}
+.solar .text .mode {
+  padding-top: 4rem;
+}
+.solar .text h2 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+}
+.solar .text p {
+  font-size: 1.3rem;
+  padding: 5px;
+  color: rgba(59, 59, 59, 0.753);
+}
+.solar .text button {
+  padding: 12px 20px;
+  width: 260px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  opacity: 0.9;
+  color: white;
+}
+.solar .text .top {
+  background-color: rgb(23, 26, 32);
+  color: white !important;
+}
+.solar .text .button {
+  margin-top: 26rem;
+}
+
+.roof {
+  background: url(images/solar-roof.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.roof .text {
+  min-height: inherit;
+}
+.roof .text .mode {
+  padding-top: 4rem;
+}
+.roof .text h2 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+}
+.roof .text p {
+  font-size: 1.3rem;
+  padding: 5px;
+  color: rgba(59, 59, 59, 0.753);
+}
+.roof .text button {
+  padding: 12px 20px;
+  width: 260px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  opacity: 0.9;
+  color: white;
+}
+.roof .text .top {
+  background-color: rgb(23, 26, 32);
+  color: white !important;
+}
+.roof .text .button {
+  margin-top: 26rem;
+}
+
+.access {
+  background: url(images/accessories.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.access .text {
+  min-height: inherit;
+}
+.access .text .mode {
+  padding-top: 4rem;
+}
+.access .text h2 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+}
+.access .text p {
+  font-size: 1.3rem;
+  padding: 5px;
+  color: rgba(59, 59, 59, 0.753);
+}
+.access .text button {
+  padding: 12px 20px;
+  width: 260px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  opacity: 0.9;
+  color: white;
+}
+.access .text .top {
+  background-color: rgb(23, 26, 32);
+  color: white !important;
+}
+.access .text a {
+  text-decoration: none;
+}
+.access .text a:hover {
+  font-weight: 600;
+}
+.access .text .button {
+  margin-top: 26rem;
+}
+
+.small {
+  padding-top: 1rem;
+  left: 0;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  gap: 3.4rem !important;
+  background-color: white;
+  width: 300px;
+  list-style: none;
+  padding: 20px;
+  z-index: 1;
+}
+
+.fullpage-wrapper {
+  position: unset !important;
+}
+
+.fp-section {
+  position: unset !important;
+}
+
+.fp-enabled {
+  height: unset !important;
+}
+
+.in {
+  -webkit-animation: slideIn 1.3s forwards ease-in-out;
+          animation: slideIn 1.3s forwards ease-in-out;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=styles.css.map */
